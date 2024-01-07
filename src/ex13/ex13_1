@@ -1,0 +1,14 @@
+import arcpy
+import arcpy.mapping as map
+import math
+
+rad = math.pi / 2
+deg = math.degrees(rad)
+
+rad2 = math.radians(deg)
+
+print(rad)
+print("------------")
+print(deg)
+print("------------")
+print(deg, rad2)
